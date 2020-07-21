@@ -392,10 +392,8 @@ Created by : mutationthemes
   top: -55px;
 }
 .footer .footer-logo {
-  width: 3.8rem;
+  width: 10rem;
 }
-
-
 
 /* .opening-hours-container {
   position: relative;
@@ -582,7 +580,6 @@ a,
 }
 .font-size-13 {
   font-size: 1.2rem;
-
 }
 .font-size-14 {
   font-size: 0.875rem;
@@ -967,11 +964,7 @@ h6 > a:hover,
 }
 /*End Miscellaneous*/
 
-
-
-
 /************************ MEDIA QUERIES *****************************/
-
 
 .btn-navbar-toggler {
   margin-top: 1.375rem;
@@ -998,7 +991,7 @@ h6 > a:hover,
     overflow-y: scroll;
   }
   .footer {
-    margin-top: 1.9rem;
+    margin-top: 1rem;
   }
   .display-4 {
     font-size: 3rem;
@@ -1036,7 +1029,7 @@ h6 > a:hover,
   .header .navbar-expand-lg .navbar-nav .nav-link {
     color: #ffffff;
   }
-  
+
   .header .header-navbar .navbar-brand,
   .header .navbar-expand-lg .navbar-nav .nav-link.nav-divider {
     border-color: rgba(255, 255, 255, 0.15);
@@ -1161,7 +1154,7 @@ h6 > a:hover,
 }
 @media (max-width: 767.98px) {
   .footer {
-    margin-top: 1.9rem;
+    margin-top: 1rem;
   }
 }
 @media (min-width: 768px) {
@@ -1198,7 +1191,16 @@ h6 > a:hover,
     font-size: 1.875rem;
   }
   .footer {
-    margin-top: 1.9rem;
+  
+    margin-top: 0.5rem;
   }
-}
+/* 
+  .footer-logo{
+    display: none;
+  } */
+
+
 /*End mediaqueries*/
+
+
+col-sm-8  makes it larger
